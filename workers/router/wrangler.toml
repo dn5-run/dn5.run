@@ -1,0 +1,9 @@
+name = "dn5-run-router"
+workers_dev = true
+main = "index.ts"
+compatibility_date = "2022-04-27"
+
+[[services]]
+binding = "SERVICE_BINDING_SASA"
+service = "dn5-run-sasa"
+environment = "production"

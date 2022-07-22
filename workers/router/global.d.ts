@@ -1,0 +1,2 @@
+declare const SERVICE_BINDING_BASE: ServiceWorkerGlobalScope
+declare const SERVICE_BINDING_SASA: ServiceWorkerGlobalScope

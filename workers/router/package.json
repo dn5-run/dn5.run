@@ -1,0 +1,17 @@
+{
+  "name": "dn5-run-router",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev index.ts",
+    "deploy": "wrangler publish index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^2.0.2"
+  },
+  "devDependencies": {
+    "wrangler": "^2.0.22"
+  }
+}
